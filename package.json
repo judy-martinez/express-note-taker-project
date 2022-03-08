@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/judy-martinez/express-note-taker-project/issues"
   },
-  "homepage": "https://github.com/judy-martinez/express-note-taker-project#readme"
+  "homepage": "https://github.com/judy-martinez/express-note-taker-project#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
