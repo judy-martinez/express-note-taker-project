@@ -1,8 +1,8 @@
 // main file where server will run from
-const PORT = process.env.PORT || 3003;
+const express = require(`express`);
 
 //instantiates server
-const express = require(`express`);
+const PORT = process.env.PORT || 3003;
 const app = express();
 
 app.listen(PORT, () => {
