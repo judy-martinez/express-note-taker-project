@@ -1,6 +1,6 @@
 // main file where server will run from
 const express = require(`express`);
-
+const router = express.Router();
 //instantiates server
 const PORT = process.env.PORT || 3003;
 const app = express();
